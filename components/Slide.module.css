@@ -1,0 +1,82 @@
+.contentSlides{
+    width: 100%;
+    position: relative;
+}
+.image{
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.title{
+    font-size: 21px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.description{
+    font-size: 18px;
+}
+.contentInfo,
+.minOptions{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    
+}
+.contentInfo{
+    background: rgba(0,0,0,.3);
+}
+.minOptions{
+    background: transparent
+}
+.contentOptions{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.options{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.automatic,
+.standard,
+.contentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentButton{
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    background: #fff;
+    border-radius: 50% 50%;
+}
+.buttonPlay{
+    width: 52px;
+    height: 52px;
+    max-width: 52px;
+    max-height: 52px;
+    background: #000;
+    border-radius: 50% 50%;
+}
+.minButton{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+}
+.buttonControls{
+    background: rgba(0,0,0,.6);
+    padding: 1%;
+    border-radius: 12% 12%;
+}
